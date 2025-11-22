@@ -1,0 +1,14 @@
+/home/maxwell/Projects/Portfolio/Peeper/bin/Debug/net8.0/Peeper
+/home/maxwell/Projects/Portfolio/Peeper/bin/Debug/net8.0/Peeper.deps.json
+/home/maxwell/Projects/Portfolio/Peeper/bin/Debug/net8.0/Peeper.runtimeconfig.json
+/home/maxwell/Projects/Portfolio/Peeper/bin/Debug/net8.0/Peeper.dll
+/home/maxwell/Projects/Portfolio/Peeper/bin/Debug/net8.0/Peeper.pdb
+/home/maxwell/Projects/Portfolio/Peeper/obj/Debug/net8.0/Peeper.GeneratedMSBuildEditorConfig.editorconfig
+/home/maxwell/Projects/Portfolio/Peeper/obj/Debug/net8.0/Peeper.AssemblyInfoInputs.cache
+/home/maxwell/Projects/Portfolio/Peeper/obj/Debug/net8.0/Peeper.AssemblyInfo.cs
+/home/maxwell/Projects/Portfolio/Peeper/obj/Debug/net8.0/Peeper.csproj.CoreCompileInputs.cache
+/home/maxwell/Projects/Portfolio/Peeper/obj/Debug/net8.0/Peeper.dll
+/home/maxwell/Projects/Portfolio/Peeper/obj/Debug/net8.0/refint/Peeper.dll
+/home/maxwell/Projects/Portfolio/Peeper/obj/Debug/net8.0/Peeper.pdb
+/home/maxwell/Projects/Portfolio/Peeper/obj/Debug/net8.0/Peeper.genruntimeconfig.cache
+/home/maxwell/Projects/Portfolio/Peeper/obj/Debug/net8.0/ref/Peeper.dll
