@@ -9,7 +9,7 @@ public class MemoryWidget : FrameView {
     private readonly Label _memLabel = new("Memory: ...") { X = 1, Y = 0 };
     private readonly ProgressBar _bar = new() {
         X = 1,
-        Y = 1,
+        Y = 2,
         Width = Dim.Fill(1),
         Height = 1
     };

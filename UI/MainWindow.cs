@@ -19,21 +19,21 @@ public class MainWindow : Window {
             X = 1,
             Y = 2,
             Width = 40,
-            Height = 4
+            Height = 6
         };
 
         GpuWidget = new() {
             X = 1,
             Y = CpuWidget.Frame.Bottom + 1,
             Width = 40,
-            Height = 5
+            Height = 6
         };
 
         MemoryWidget = new() {
             X = 1,
             Y = GpuWidget.Frame.Bottom + 1,
             Width = 40,
-            Height = 4
+            Height = 5
         };
         Add(CpuWidget, GpuWidget, MemoryWidget);
     }

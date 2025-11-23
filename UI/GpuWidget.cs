@@ -11,7 +11,7 @@ public class GpuWidget : FrameView {
 
     private readonly ProgressBar _bar = new() {
         X = 1,
-        Y = 2,
+        Y = 3,
         Width = Dim.Fill(1),
         Height = 1
     };
