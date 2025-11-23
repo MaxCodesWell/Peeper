@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "/P7WiEz5EVd2K9fltdBm6fxUABv5pqNm95p8ZEjjspkXR0CS3CZOvm2OjesSENZn3ZQmpcmOoSiim0mL4vUTdg==",
+  "dgSpecHash": "yrc7dtul+UVO3axv3W97w9RSPmV+QN1BYMUQULFvAuxaFmPxB3KaQq50UzdiAmw5WgtJxpjwkZ2H6+noBYEzIQ==",
   "success": true,
   "projectFilePath": "/home/maxwell/Projects/Portfolio/Peeper/Peeper.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/maxwell/.nuget/packages/nstack.core/1.1.1/nstack.core.1.1.1.nupkg.sha512",
+    "/home/maxwell/.nuget/packages/system.codedom/9.0.4/system.codedom.9.0.4.nupkg.sha512",
+    "/home/maxwell/.nuget/packages/system.management/9.0.4/system.management.9.0.4.nupkg.sha512",
+    "/home/maxwell/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
+    "/home/maxwell/.nuget/packages/terminal.gui/1.19.0/terminal.gui.1.19.0.nupkg.sha512"
+  ],
   "logs": []
 }
