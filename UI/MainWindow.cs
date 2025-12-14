@@ -1,12 +1,14 @@
 using Terminal.Gui;
 using Peeper.Services;
+using Peeper.Widgets;
 
 namespace Peeper.UI;
 
 public class MainWindow : Window {
-    public CpuWidget CpuWidget;
-    public MemoryWidget MemoryWidget;
-    public GpuWidget GpuWidget;
+    public CpuWidget cpuWidget;
+    public MemoryWidget memoryWidget;
+    public GpuWidget gpuWidget;
+    public NetWidget netWidget;
 
     public MainWindow() {
         Title = "Peeper System Monitor";
@@ -15,27 +17,34 @@ public class MainWindow : Window {
         Width = Dim.Fill();
         Height = Dim.Fill();
 
-        CpuWidget = new() {
+        cpuWidget = new() {
             X = 1,
             Y = 2,
             Width = 40,
             Height = 6
         };
 
-        GpuWidget = new() {
+        gpuWidget = new() {
             X = 1,
-            Y = CpuWidget.Frame.Bottom + 1,
+            Y = cpuWidget.Frame.Bottom + 1,
             Width = 40,
             Height = 6
         };
 
-        MemoryWidget = new() {
+        memoryWidget = new() {
             X = 1,
-            Y = GpuWidget.Frame.Bottom + 1,
+            Y = gpuWidget.Frame.Bottom + 1,
             Width = 40,
             Height = 5
         };
-        Add(CpuWidget, GpuWidget, MemoryWidget);
+
+        netWidget = new() {
+            X = 1,
+            Y = memoryWidget.Frame.Bottom + 1,
+            Width = 40,
+            Height = 7
+        };
+        Add(cpuWidget, gpuWidget, memoryWidget, netWidget); 
     }
 
     public override bool ProcessKey(KeyEvent keyEvent) {
